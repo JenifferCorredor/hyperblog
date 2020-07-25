@@ -4,5 +4,9 @@ $ git add <file name> -- añade el archivo al Staging Area
                          el archivo queda en estado rastreado - tracked
 
 $ git rm --cached <file name> -- Devuelve el archivo al work directory
-                                 devuelve el archivo al estado sin rastrear - Unytracked
+                                 devuelve el archivo al estado sin rastrear - Untracked
                                
+$ git commit -am "mensaje para el commit" -- Ejecuta los commandos de add y commit al mismo tiempo
+                                             
+$ git log -- lista los commits realizados
+
