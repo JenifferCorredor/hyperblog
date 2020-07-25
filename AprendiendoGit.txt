@@ -14,4 +14,7 @@ $ git diff ShaCommitMasAntiguo ShaCommitMasReciente --  Coge la version anterior
                                                         Muestra los cambios que diferencian un commit de otro
 
 Todo commit debe llevar un mensaje                                                         
+Cuando no se escribe un mensaje para el cambio o commit, git abre un editor de codigo basado en linea de comandos VIM
+Scape + insert -- para comenzar a escribir en el editor de código
+shif + z (2 veces) para guardar en el editor de codigo
 
