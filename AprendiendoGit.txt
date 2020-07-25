@@ -10,3 +10,8 @@ $ git commit -am "mensaje para el commit" -- Ejecuta los commandos de add y comm
                                              
 $ git log -- lista los commits realizados
 
+$ git diff ShaCommitMasAntiguo ShaCommitMasReciente --  Coge la version anterior y la version nueva y muestra la diferencia
+                                                        Muestra los cambios que diferencian un commit de otro
+
+Todo commit debe llevar un mensaje                                                         
+
